@@ -1,0 +1,104 @@
+[
+  {
+    "key": "Piyasalar",
+    "value":"//a[@href='https://www.binance.com/tr/markets']//div[@class='css-vurnku']",
+    "type": "xpath"
+  },
+  {
+    "key": "AVAX",
+    "value":"//a[@href='/tr/trade/AVAX_USDT?_from=markets']",
+    "type": "xpath"
+  },
+  {
+    "key": "AVAX_Title",
+    "value":"//h1[text()='AVAX/USDT']",
+    "type": "xpath"
+  },
+  {
+    "key": "rejectCokkies_button",
+    "value":"onetrust-reject-all-handler",
+    "type": "id"
+  },
+  {
+    "key": "close_button",
+    "value":"[class='css-4rbxuz']",
+    "type": "css"
+  },
+  {
+    "key": "close_button2",
+    "value":"[class='css-1sh2brw']",
+    "type": "css"
+  },
+  {
+    "key": "Al-sat",
+    "value":"//div[text()='Al-Sat']",
+    "type": "xpath"
+  },
+  {
+    "key": "spot",
+    "value":"//div[text()='Spot']",
+    "type": "xpath"
+  },
+  {
+    "key": "login",
+    "value":"header_login",
+    "type": "id"
+  },
+  {
+    "key": "username",
+    "value":"username",
+    "type": "id"
+  },
+  {
+    "key": "loginsubmit",
+    "value":"click_login_submit",
+    "type": "id"
+  },
+  {
+    "key": "error_message",
+    "value":"//div[text()='Lütfen geçerli bir e-posta veya telefon numarası girin']",
+    "type": "xpath"
+  },
+  {
+    "key": "capacityOrder_button",
+    "value":"[title='24s Hacim']",
+    "type": "css"
+  },
+  {
+    "key": "capacity_list",
+    "value":"#tabContainer > div.css-72ldqd > div.css-qbmpwo > div > div.css-1vuj9rf > div > div > div.css-102bt5g",
+    "type": "css"
+  },
+  {
+    "key": "name_list",
+    "value":"#tabContainer > div.css-72ldqd > div.css-qbmpwo > div > div.css-1vuj9rf > div > div > a > div.css-y492if > div",
+    "type": "css"
+  },
+  {
+    "key": "price_list",
+    "value":"#tabContainer > div.css-72ldqd > div.css-qbmpwo > div > div.css-1vuj9rf > div > div > div.css-ydcgk2 > div",
+    "type": "css"
+  },
+  {
+    "key": "page2_button",
+    "value":"page-2",
+    "type": "id"
+  },
+  {
+    "key": "page3_button",
+    "value":"page-3",
+    "type": "id"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+

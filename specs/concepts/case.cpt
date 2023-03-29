@@ -1,0 +1,48 @@
+# Hakkımızda alanındaki seceneklere rastgele tıklanır
+* "aboutUs_list" listesindeki elementlerden rastgele bir tanesine tıkla
+* "3" saniye bekle
+
+# Binance sitesinde Piyasalar secenegine tıklanır
+* "Piyasalar" elementine tıkla
+
+# Ekranda listelenen spot piyasalar>USDT listesinden AVAX/USDT secenegine tıklanır
+* "AVAX" elementine tıkla
+
+# AVAX/USDT sayfasına yönlenildigi kontrol edilir
+* Check element is here "AVAX_Title"
+
+# Binance sitesinde Al-Sat secenegine tıklanır
+* "Al-sat" elementine tıkla
+
+# Al-sat altındaki Spot secenegine tıklanır
+* "spot" elementine tıkla
+
+# İleri butonuna tıklanır ve yanlıs bilgi ile login olmaya calısılır
+* "login" elementine tıkla
+* "username" alanına "ayselbilici" yaz
+* "loginsubmit" elementine tıkla
+
+# Hata alındıgı ve login olunamadıgı görülür
+* Check element is here "error_message"
+
+# Tüm kripto paralar listesinde hacime göre sıralama yapılır
+* "capacityOrder_button" elementine tıkla
+
+# Sayfa <pageNumber> excele yazılır
+* excele yaz <pageNumber>
+
+# Cookies alanları geçilir
+* "5" saniye bekle
+* "rejectCokkies_button" elementine tıkla
+
+# Sayfa içerisindeki pop up'lar kapatılır
+* "close_button" elementine tıkla
+* "close_button2" elementine tıkla
+
+# 2. sayfaya gecilir
+* "page2_button" elementine tıkla
+* "5" saniye bekle
+
+# 3. sayfaya gecilir
+* "page3_button" elementine tıkla
+* "5" saniye bekle
